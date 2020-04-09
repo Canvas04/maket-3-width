@@ -4,33 +4,40 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Страница сервиса</title>
+    <link rel="stylesheet" href="./css/header.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/nav.css">
+    <link rel="stylesheet" href="./css/content.css">
+    <link rel="stylesheet" href="./fontsTTLakes/fonts.css">
 </head>
 
-<body>
+<body class="body">
     <main class="main">
         <section class="nav-buttons">
-            <button class="nav-buttons__button"><img src="./img/burger.svg" alt="burger"></button>
+            <div class="nav-buttons__block nav-buttons__block_xs"></div>
+            <button class="nav-buttons__button nav-buttons__button_white nav-buttons__button_burger"><img src="./img/burger.svg" alt="burger"></button>
             <img src="./img/divider.svg" alt="divider" class="nav-buttons__img nav-buttons__img_md">
             <img src="./img/Group.svg" alt="logo" class='nav-buttons__img nav-buttons__img_logo'>
             <img src="./img/divider.svg" alt="divider"
                 class='nav-buttons__img nav-buttons__img nav-buttons__img_divider-sm'>
 
-            <button class="nav-buttons__button nav-buttons__button_md"><img src="./img/call.svg" alt="call"></button>
-            <button class='nav-buttons__button nav-buttons__button_md'><img src="./img/chat.svg" alt="chat"></button>
-            <button class='nav-buttons__button nav-buttons__button_md'><img src="./img/profile.svg"
+            <button class="nav-buttons__button nav-buttons__button_md nav-buttons__button_white nav-buttons__button_call"><img src="./img/call.svg" alt="call"></button>
+            <button class='nav-buttons__button nav-buttons__button_md nav-buttons__button_white'><img src="./img/chat.svg" alt="chat"></button>
+            <button class='nav-buttons__button nav-buttons__button_md nav-buttons__button_white'><img src="./img/profile.svg"
                     alt="profile"></button>
-            <header class="nav-buttons__header">
-                <h1>Услуги и сервисы</h1>
-            </header>
+
             <img src="./img/divider.svg" alt="divider" class="nav-buttons__img nav-buttons__img_md">
-            <a href="#">Оставить заявку </a>
-            <button class="nav-buttons__button"><img src="./img/repair.svg" alt="repair"></button>
-            <a href="#">Статус ремонта</a>
-            <button class="nav-buttons__button "><img src="./img/checkstatus.svg" alt="status"></button>
+            <a href="#" class="nav-buttons__link nav-buttons__link_main">Оставить заявку </a>
+            <button class="nav-buttons__button nav-buttons__button_white"><img src="./img/repair.svg" alt="repair"></button></div>
+            <a href="#" class="nav-buttons__link nav-buttons__link_main"> Статус ремонта</a>
+            <button class="nav-buttons__button nav-buttons__button_white "><img src="./img/checkstatus.svg" alt="status"></button>
 
         </section>
 
+        <header class="nav-buttons__header">
+            <h1>Услуги и сервисы</h1>
+        </header>
 
         <nav class="menu">
 
@@ -72,7 +79,7 @@
                 </div>
             </div>
             <div class="content__image-block">
-                <img src="./img/workingHours.png" alt="workingHours" >
+                <img src="./img/workingHours.png" alt="workingHours">
             </div>
 
 
