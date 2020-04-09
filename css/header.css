@@ -10,6 +10,10 @@
     display: none;
 }
 
+.nav-buttons__header {
+    display: none;
+}
+
 .nav-buttons {
     display: flex;
     background-color: #FFFFFF;
@@ -35,6 +39,9 @@
     .nav-buttons__img_divider-sm {
         display: none;
     }
+    .nav-buttons__header {
+        display: none;
+    }
 }
 
 /* md (>=768 и <=991) */
@@ -49,18 +56,88 @@
     .nav-buttons__img_divider-sm {
         display: none;
     }
-    .nav-buttons {
-        justify-content: space-evenly;
+    .nav-buttons__header {
+        display: none;
     }
-   .nav-buttons__button_md {
-
-   }
+    .nav-buttons {
+        justify-content: space-between;
+    }
+    .nav-buttons__img_logo {
+        flex-basis: 60%;
+        margin-left: -25%;
+    }
 }
 
 /* lg (>=992 и <=1199) */
 
-@media (min-width: 992px) and (max-width: 1199px) {}
+@media (min-width: 992px) and (max-width: 1199px) {
+    .nav-buttons {
+        background-color: #f8f8f8;
+        padding: 0;
+        justify-content: space-between;
+    }
+    .nav-buttons__button_gray {
+        background-color: #f8f8f8;
+    }
+    .nav-buttons__header {
+        display: block;
+        font-size: 28px;
+    }
+    .nav-buttons__head {
+        margin: 0;
+        font-size: 28px;
+    }
+    .nav-buttons__button_burger {
+        display: none ;
+    }
+    .nav-buttons__img_logo {
+        display: none ;
+    }
+    .nav-buttons__img_divider-sm {
+        display: none;
+    }
+    .nav-buttons__link_main {
+        display: block;
+        text-decoration: none;
+        color: #1B1C21;
+        font-size: 16px;
+        align-items: flex-end;
+    }
+}
 
 /* xl (>=1200) */
 
-@media (min-width: 1200px) {}
+@media (min-width: 1200px) {
+    .nav-buttons {
+        background-color: #f8f8f8;
+        padding: 0;
+        justify-content: space-between;
+    }
+    .nav-buttons__button_gray {
+        background-color: #f8f8f8;
+    }
+    .nav-buttons__header {
+        display: block;
+        font-size: 28px;
+    }
+    .nav-buttons__head {
+        margin: 0;
+        font-size: 28px;
+    }
+    .nav-buttons__button_burger {
+        display: none;
+    }
+    .nav-buttons__img_logo {
+        display: none;
+    }
+    .nav-buttons__img_divider-sm {
+        display: none;
+    }
+    .nav-buttons__link_main {
+        display: block;
+        text-decoration: none;
+        color: #1B1C21;
+        font-size: 16px;
+        align-items: flex-end;
+    }
+}
