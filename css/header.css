@@ -169,7 +169,7 @@ position: relative;
         height: 70px;
         background-image: url(../img/highlight.svg);
         position: absolute;
-        left: 0px;
+        left: -2px;
         top: 30px;
     }
     .nav-buttons__button_burger {
@@ -201,7 +201,5 @@ position: relative;
     }
     .head-md {
         display: none;
-       
-        
-    }
+       }
 }
