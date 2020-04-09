@@ -27,6 +27,22 @@
     background-color: #FFFFFF;
 }
 
+.head-md {
+font-size: 28px;
+margin-top: 24px;
+margin-left: 20px;
+position: relative;
+}
+
+.head-md::before {
+    content: '';
+    width: 4px;
+    height: 40px;
+    background-image: url(../img/highlight.svg);
+    position: absolute;
+    left: -15px;
+    top:
+}
 /* sm (>=576 и <=767) */
 
 @media (min-width: 576px) and (max-width: 767px) {
@@ -121,6 +137,9 @@
     .nav-buttons__link_right {
         margin-left: 30px;
     }
+    .head-md {
+        display: none;
+    }
 }
 
 /* xl (>=1200) */
@@ -178,6 +197,11 @@
     }
     .nav-buttons__img_right {
         margin-right: -30px;
-        ;
+        
+    }
+    .head-md {
+        display: none;
+       
+        
     }
 }
