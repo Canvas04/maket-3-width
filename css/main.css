@@ -7,14 +7,23 @@ html, .body {
 }
 
 @media (min-width: 992px) and (max-width: 1199px) {
-  .body {
-      box-sizing: border-box;
-  }
+    .body {
+        box-sizing: border-box;
+    }
     .main {
         width: 100%;
-        margin-top: 42px;
+        margin-top: 50px;
         margin-left: 32px;
         margin-right: 28px;
     }
+}
 
+@media (min-width: 1200px) {
+    
+    .main {
+        width: 100%;
+        margin-top: 50px;
+        margin-left: 32px;
+        margin-right: 28px;
+    }
 }

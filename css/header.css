@@ -74,7 +74,8 @@
     .nav-buttons {
         background-color: #f8f8f8;
         padding: 0;
-        justify-content: space-between;
+        max-width: 95%;
+        display: flex;
     }
     .nav-buttons__button_gray {
         background-color: #f8f8f8;
@@ -82,16 +83,27 @@
     .nav-buttons__header {
         display: block;
         font-size: 28px;
+        flex-basis: 59%;
     }
     .nav-buttons__head {
         margin: 0;
         font-size: 28px;
+        position: relative;
+    }
+    .nav-buttons__head::before {
+        content: '';
+        width: 6px;
+        height: 60px;
+        background-image: url(../img/highlight.svg);
+        position: absolute;
+        left: -35px;
+        top: -5px;
     }
     .nav-buttons__button_burger {
-        display: none ;
+        display: none;
     }
     .nav-buttons__img_logo {
-        display: none ;
+        display: none;
     }
     .nav-buttons__img_divider-sm {
         display: none;
@@ -101,7 +113,13 @@
         text-decoration: none;
         color: #1B1C21;
         font-size: 16px;
-        align-items: flex-end;
+        align-self: center;
+    }
+    .nav-buttons__button {
+        align-self: flex-start;
+    }
+    .nav-buttons__link_right {
+        margin-left: 30px;
     }
 }
 
@@ -110,8 +128,8 @@
 @media (min-width: 1200px) {
     .nav-buttons {
         background-color: #f8f8f8;
+        max-width: 95%;
         padding: 0;
-        justify-content: space-between;
     }
     .nav-buttons__button_gray {
         background-color: #f8f8f8;
@@ -119,10 +137,21 @@
     .nav-buttons__header {
         display: block;
         font-size: 28px;
+        flex-basis: 60%;
     }
     .nav-buttons__head {
         margin: 0;
         font-size: 28px;
+        position: relative;
+    }
+    .nav-buttons::before {
+        content: '';
+        width: 6px;
+        height: 70px;
+        background-image: url(../img/highlight.svg);
+        position: absolute;
+        left: 0px;
+        top: 30px;
     }
     .nav-buttons__button_burger {
         display: none;
@@ -138,6 +167,17 @@
         text-decoration: none;
         color: #1B1C21;
         font-size: 16px;
-        align-items: flex-end;
+    }
+    .nav-buttons__link_main {
+        align-self: center;
+        position: relative;
+        left: 10px;
+    }
+    .nav-buttons__link_right {
+        margin-left: 28px;
+    }
+    .nav-buttons__img_right {
+        margin-right: -30px;
+        ;
     }
 }
