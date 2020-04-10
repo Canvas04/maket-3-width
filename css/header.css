@@ -1,37 +1,91 @@
-.nav-buttons__img_md {
+.icons-and-header__icon_burger {
+    width: 40px;
+    height: 40px;
+    background-image: url(../img/burger.svg);
+    background-repeat: no-repeat;
+}
+
+.icons-and-header__icon_logo {
+    width: 100px;
+    height: 60px;
+    background-image: url(../img/Group.svg);
+    background-repeat: no-repeat;
+}
+
+.icons-and-header__icon_divider {
+    width: 3px;
+    height: 40px;
+    background-image: url(../img/divider.svg);
+}
+
+.icons-and-header__icon_repair {
+    width: 40px;
+    height: 40px;
+    background-image: url(../img/repair.svg);
+    background-repeat: no-repeat;
+}
+
+.icons-and-header__icon_status {
+    width: 40px;
+    height: 40px;
+    background-image: url(../img/checkstatus.svg);
+    background-repeat: no-repeat;
+}
+
+.icons-and-header__icon_call {
+    width: 40px;
+    height: 40px;
+    background-image: url(../img/call.svg);
+    background-repeat: no-repeat;
+}
+
+.icons-and-header__icon_chat {
+    width: 40px;
+    height: 40px;
+    background-image: url(../img/chat.svg);
+    background-repeat: no-repeat;
+}
+
+.icons-and-header__icon_profile {
+    width: 40px;
+    height: 40px;
+    background-image: url(../img/profile.svg);
+    background-repeat: no-repeat;
+}
+
+.icons-and-header__icon_lg {
     display: none;
 }
 
-.nav-buttons__button_md {
+.icons-and-header__icon_md {
     display: none;
 }
 
-.nav-buttons__link_main {
+.icons-and-header__link {
     display: none;
 }
 
-.nav-buttons__header {
+.icons-and-header__header {
     display: none;
 }
 
-.nav-buttons {
+.icons-and-header__icon_sm {
+    display: block;
+    align-self: center;
+}
+
+.icons-and-header {
     display: flex;
     background-color: #FFFFFF;
     padding: 20px;
     justify-content: space-around;
 }
 
-.nav-buttons__button_white {
-    border: none;
-    outline: none;
-    background-color: #FFFFFF;
-}
-
 .head-md {
-font-size: 28px;
-margin-top: 24px;
-margin-left: 20px;
-position: relative;
+    font-size: 28px;
+    margin-top: 24px;
+    margin-left: 20px;
+    position: relative;
 }
 
 .head-md::before {
@@ -41,56 +95,61 @@ position: relative;
     background-image: url(../img/highlight.svg);
     position: absolute;
     left: -15px;
-    top:
+    
 }
+
 /* sm (>=576 и <=767) */
 
 @media (min-width: 576px) and (max-width: 767px) {
-    .nav-buttons__img_md {
+    
+    .icons-and-header__icon_md {
         display: block;
     }
-    .nav-buttons__button_md {
+    .icons-and-header__icon_lg {
+        display: none;
+    }
+
+    .icons-and-header__icon_sm {
+        display: none;
+    }
+    .icons-and-header__icon_md {
         display: block;
+        align-self: center;
     }
-    .nav-buttons__img_divider-sm {
-        display: none;
-    }
-    .nav-buttons__header {
-        display: none;
-    }
-    .nav-buttons__img_logo {
-        flex-basis: 50%;
-        margin-left: -15%;
+
+    .icons-and-header__icon_logo {
+        flex-basis: 40%;
+        
     }
 }
 
 /* md (>=768 и <=991) */
 
 @media (min-width: 768px) and (max-width: 991px) {
-    .nav-buttons__img_md {
+    
+
+    .icons-and-header__icon_md {
         display: block;
     }
-    .nav-buttons__button_md {
+    .icons-and-header__icon_lg {
+        display: none;
+    }
+
+    .icons-and-header__icon_sm {
+        display: none;
+    }
+    .icons-and-header__icon_md {
         display: block;
+        align-self: center;
     }
-    .nav-buttons__img_divider-sm {
-        display: none;
-    }
-    .nav-buttons__header {
-        display: none;
-    }
-    .nav-buttons {
-        justify-content: space-between;
-    }
-    .nav-buttons__img_logo {
-        flex-basis: 60%;
-        margin-left: -25%;
+
+    .icons-and-header__icon_logo {
+        flex-basis: 40%;
+        
     }
 }
 
 /* lg (>=992 и <=1199) */
-
-
 
 @media (min-width: 992px) and (max-width: 1199px) {
     .nav-buttons {
@@ -148,12 +207,12 @@ position: relative;
     }
 }
 
-@media (min-width: 992px) and (max-width:1030px ) {
-.nav-buttons__header  {
-flex-basis: 50%;
+@media (min-width: 992px) and (max-width:1030px) {
+    .nav-buttons__header {
+        flex-basis: 50%;
+    }
 }
 
-}
 /* xl (>=1200) */
 
 @media (min-width: 1200px) {
@@ -209,9 +268,8 @@ flex-basis: 50%;
     }
     .nav-buttons__img_right {
         margin-right: -30px;
-        
     }
     .head-md {
         display: none;
-       }
+    }
 }
