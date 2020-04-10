@@ -43,6 +43,7 @@
 .content__img_el {
     width: 100%;
     margin: 0;
+    border-radius: 6px;
 }
 
 @media (min-width: 768px) and (max-width: 1199px) {
@@ -89,7 +90,7 @@
         flex-basis: 50%;
     }
     .content__img_el {
-        border-radius: 20px;
+        border-radius: 6px;
         width: 100%;
     }
 }
