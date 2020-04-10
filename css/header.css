@@ -196,13 +196,10 @@
         text-decoration: none;
         color: #1B1C21;
         font-size: 16px;
-    
+    align-self: center;
     }
     
-    .icons-and-header__link_left {
-        position: relative;
-        left: 50px;
-    }
+    
     .head-md {
         display: none;
     }
@@ -210,7 +207,7 @@
 
 @media (min-width: 992px) and (max-width:1030px) {
     .icons-and-header__header {
-        flex-basis: 50%;
+        flex-basis: 55%;
     }
 }
 
