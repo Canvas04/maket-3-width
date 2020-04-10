@@ -92,7 +92,7 @@ position: relative;
     .nav-buttons {
         background-color: #f8f8f8;
         padding: 0;
-        max-width: 95%;
+        max-width: 100%;
         display: flex;
     }
     .nav-buttons__button_gray {
@@ -155,7 +155,7 @@ flex-basis: 50%;
 @media (min-width: 1200px) {
     .nav-buttons {
         background-color: #f8f8f8;
-        max-width: 95%;
+        max-width: 100%;
         padding: 0;
     }
     .nav-buttons__button_gray {
@@ -164,7 +164,7 @@ flex-basis: 50%;
     .nav-buttons__header {
         display: block;
         font-size: 28px;
-        flex-basis: 60%;
+        flex-basis: 65%;
     }
     .nav-buttons__head {
         margin: 0;
