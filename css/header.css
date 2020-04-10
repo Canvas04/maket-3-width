@@ -58,6 +58,10 @@ position: relative;
     .nav-buttons__header {
         display: none;
     }
+    .nav-buttons__img_logo {
+        flex-basis: 50%;
+        margin-left: -15%;
+    }
 }
 
 /* md (>=768 и <=991) */
