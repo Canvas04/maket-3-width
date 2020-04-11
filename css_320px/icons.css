@@ -3,7 +3,7 @@
     height: 40px;
     background-image: url(../img__320px/burger.svg);
     background-repeat: no-repeat;
-    align-self:center;
+    align-self: center;
 }
 
 .main-icons__logo {
@@ -93,11 +93,13 @@
 }
 
 .menu__item {
-    margin-bottom:32px;
+    margin-bottom: 32px;
 }
+
 .menu__item_last {
     margin-bottom: 0;
 }
+
 .minor-icons {
     display: flex;
     justify-content: space-between;
@@ -111,7 +113,6 @@
     margin-top: 16px;
     display: flex;
     flex-direction: column;
-  
 }
 
 .footer__item_mail {
@@ -147,4 +148,14 @@
 
 .footer__lang_ch {
     flex-basis: 70%;
+}
+
+.button {
+    transition-property: opacity;
+    transition-duration: 0.2s;
+    transition-timing-function: ease-in;
+}
+
+.button:hover {
+    opacity: 0.5;
 }
