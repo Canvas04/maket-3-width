@@ -1,0 +1,13 @@
+.body {
+    font-family: "TT Lakes";
+    background-color: #ffffff;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.main {
+    margin-top: 19px;
+    margin-left: 24px;
+    margin-bottom: 32px;
+    margin-right: 24px;
+}

@@ -10,14 +10,19 @@
     <link rel="stylesheet" href="./css_320px/main.css">
     <link rel="stylesheet" href="./css_320px/nav.css">
     <link rel="stylesheet" href="./css_320px/footer.css">
+    <link rel="stylesheet" href="./fontsTTLakes/fonts.css">
 </head>
 
 <body class="body">
     <main class="main">
 
-        <section class="main-icons"></section>
+        <section class="main-icons">
+            <div class="main-icons__burger"></div>
+            <div class="main-icons__logo"></div>
+            <div class="main-icons__search"></div>
+        </section>
         <header class="header">
-            <h1>Ремонт техники</h1>
+            <h1 class="header__head">Ремонт техники</h1>
         </header>
         <nav class="menu">
             <ul class="menu__list">
@@ -27,16 +32,23 @@
                 <li class="menu__item"> <a href="" class="menu__link">Партнерам</a></li>
                 <li class="menu__item"><a href="" class="menu__link">Производителям</a> </li>
                 <li class="menu__item"> <a href="" class="menu__link">Наши сервисные центры</a></li>
-                <li class="menu__item"> <a href="" class="menu__link">Контакты</a></li>
+                <li class="menu__item menu__item_last"> <a href="" class="menu__link">Контакты</a></li>
 
             </ul>
         </nav>
 
-        <div class="minor-icons"></div>
+        <div class="minor-icons">
+            <div class="minor-icons__call"></div>
+            <div class="minor-icons__chat"></div>
+            <div class="minor-icons__profile"></div>
+        </div>
         <footer class="footer">
-            <div class="footer__item">mail@cps.com</div>
-            <div class="footer__item">8 800 890 8900</div>
-            <div class="footer__item"><span class="footer__lang">RU</span> EN CH</div>
+            <div class="footer__item footer__item_mail">mail@cps.com</div>
+            <div class="footer__item footer__item_tel">8 800 890 8900</div>
+            <div class="footer__item footer__item_lang"><span class="footer__lang footer__lang_ru">RU</span>
+                <span class="footer__lang footer__lang_en">EN</span> 
+                <span class="footer__lang footer__lang_ch">CH</span> 
+            </div>
         </footer>
     </main>
 </body>
