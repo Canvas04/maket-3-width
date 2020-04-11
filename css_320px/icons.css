@@ -3,6 +3,7 @@
     height: 40px;
     background-image: url(../img__320px/burger.svg);
     background-repeat: no-repeat;
+    align-self:center;
 }
 
 .main-icons__logo {
@@ -17,6 +18,7 @@
     height: 40px;
     background-image: url(../img__320px/search.svg);
     background-repeat: no-repeat;
+    align-self: center;
 }
 
 .minor-icons__call {
