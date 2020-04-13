@@ -1,0 +1,26 @@
+.menu {
+    margin-bottom: 268px;
+}
+
+.menu__list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.menu__link {
+    color: #1B1C21;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.menu__item {
+    margin-bottom: 32px;
+}
+
+.menu__item_last {
+    margin-bottom: 0;
+}

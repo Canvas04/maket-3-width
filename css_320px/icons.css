@@ -73,32 +73,7 @@
     top: -5px;
 }
 
-.menu {
-    margin-bottom: 268px;
-}
 
-.menu__list {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-}
-
-.menu__link {
-    color: #1B1C21;
-    font-size: 16px;
-    text-decoration: none;
-}
-
-.menu__item {
-    margin-bottom: 32px;
-}
-
-.menu__item_last {
-    margin-bottom: 0;
-}
 
 .minor-icons {
     display: flex;
@@ -109,46 +84,7 @@
     flex-basis: 60%
 }
 
-.footer {
-    margin-top: 16px;
-    display: flex;
-    flex-direction: column;
-}
 
-.footer__item_mail {
-    font-size: 16px;
-    color: #1B1C21;
-    line-height: 24px;
-    letter-spacing: -0.2px;
-}
-
-.footer__item_tel {
-    font-size: 24px;
-    list-style: 32px;
-    color: #1B1C21;
-    letter-spacing: -0.6px;
-    flex-basis: 50%;
-    font-weight: bold;
-    margin-bottom: 40px;
-    margin-top: 12px;
-}
-
-.footer__item_lang {
-    color: #1B1C21;
-    font-size: 16px;
-    letter-spacing: -0.2px;
-    line-height: 24px;
-    display: flex;
-    justify-content: space-between;
-}
-
-.footer__lang_ru {
-    color: #7E7E82;
-}
-
-.footer__lang_ch {
-    flex-basis: 70%;
-}
 
 .button {
     transition-property: opacity;
@@ -158,4 +94,5 @@
 
 .button:hover {
     opacity: 0.5;
+    cursor: pointer;
 }
