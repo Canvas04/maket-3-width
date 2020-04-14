@@ -51,30 +51,6 @@
     flex-basis: 55%;
 }
 
-.header {
-    margin-top: 50px;
-    margin-bottom: 50px;
-}
-
-.header__head {
-    font-size: 16px;
-    color: #7E7E82;
-    position: relative;
-    font-weight: normal;
-}
-
-.header__head::before {
-    content: '';
-    width: 4px;
-    height: 32px;
-    background-image: url(../img__320px/highlight.svg);
-    position: absolute;
-    left: -25px;
-    top: -5px;
-}
-
-
-
 .minor-icons {
     display: flex;
     justify-content: space-between;

@@ -1,5 +1,5 @@
 .menu {
-    margin-bottom: 268px;
+    /* margin-bottom: 268px; */
 }
 
 .menu__list {
@@ -9,6 +9,8 @@
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+    margin-bottom: 268px;
+
 }
 
 .menu__link {
@@ -23,4 +25,25 @@
 
 .menu__item_last {
     margin-bottom: 0;
+}
+.menu__item_marked {
+    margin-top: 50px;
+    margin-bottom: 32px;
+}
+
+.menu__link_marked {
+    font-size: 16px;
+    color: #7E7E82;
+    position: relative;
+    font-weight: normal;
+}
+
+.menu__link_marked::before {
+    content: '';
+    width: 4px;
+    height: 32px;
+    background-image: url(../img__320px/highlight.svg);
+    position: absolute;
+    left: -25px;
+    top: -5px;
 }
