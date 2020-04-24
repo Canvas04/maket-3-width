@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Swiper demo</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+
+
+    <link rel="stylesheet" href="swiper-master/package/css/swiper.min.css">
+    <link rel="stylesheet" href="fontsTTLakes/fonts.css">
+    <style>
+        html,
+        body {
+            position: relative;
+            height: 100%;
+            font-size: "TT Lakes";
+        }
+
+        body {
+            background: #F2F2F2;
+            font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+            font-size: 14px;
+            color: #000;
+            margin: 0;
+            padding: 0;
+        }
+
+        .swiper-container {
+            width: 100%;
+            height: 30%;
+            margin-left: 16px;
+        }
+
+        .swiper-slide {
+            text-align: center;
+            font-size: 18px;
+            /* background: #fff; */
+
+            /* Center slide text vertically */
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: -webkit-flex;
+            display: flex;
+            -webkit-box-pack: center;
+            -ms-flex-pack: center;
+            -webkit-justify-content: center;
+            justify-content: center;
+            -webkit-box-align: center;
+            -ms-flex-align: center;
+            -webkit-align-items: center;
+            align-items: center;
+
+        }
+
+        .swiper-pagination-bullet {
+            background-color: #DDDDDD;
+            width: 12px;
+            height: 12px;
+        }
+
+        .swiper-pagination-bullet-active {
+            background-color: #B5B6BC;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="head">
+        <h3 class="head__el">Ремонт техники различных брендов</h3>
+    </div>
+    <div class="swiper-container">
+
+        <div class="swiper-container">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <img src="img__slider/lenovo.svg" alt="lenovo">
+                </div>
+
+                <div class="swiper-slide">
+                    <img src="img__slider/samsung.svg" alt="samsung">
+
+                </div>
+
+                <div class="swiper-slide">
+                    <img src="img__slider/apple.svg" alt="apple">
+
+                </div>
+
+                <div class="swiper-slide">
+                    <img src="img__slider/bosch.svg" alt="bosch">
+
+                </div>
+
+                <div class="swiper-slide">
+                    <img src="img__slider/hp.svg" alt="hp">
+
+                </div>
+
+                <div class="swiper-slide">
+                    <img src="img__slider/acer.svg" alt="acer">
+
+                </div>
+
+                <div class="swiper-slide">
+                    <img src="img__slider/viewSonic.svg" alt="viewSonic">
+
+                </div>
+
+                <div class="swiper-slide">
+                    <img src="img__slider/sony.svg" alt="sony">
+
+                </div>
+
+                <div class="swiper-slide">
+                    <img src="img__slider/apple.svg" alt="apple">
+
+                </div>
+
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+
+        <script src="swiper-master/package/js/swiper.min.js"></script>
+        <script>
+            var swiper = new Swiper('.swiper-container', {
+                slidesPerView: 1,
+                spaceBetween: 10,
+                pagination: {
+                    el: '.swiper-pagination',
+                    clickable: true,
+                },
+                breakpoints: {
+                    '@0.00': {
+                        slidesPerView: 1.4,
+                        spaceBetween: 16,
+                    },
+                    '@0.50': {
+                        slidesPerView: 2.5,
+                        spaceBetween: 16,
+                    },
+                    '@0.75': {
+                        slidesPerView: 3,
+                        spaceBetween: 16,
+                    },
+                    '@1.00': {
+                        slidesPerView: 3,
+                        spaceBetween: 16,
+                    },
+                    '@1.50': {
+                        slidesPerView: 4,
+                        spaceBetween: 16,
+                    },
+                }
+            });
+        </script>
+</body>
+
+</html>
+
+<!-- Нужно сделать margin-left основному свайперу контейнеру -->
