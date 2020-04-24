@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="/fontsTTLakes/fonts.css">
     <link rel="stylesheet" href="css__slider/swiper.css">
     <link rel="stylesheet" href="css__slider/header.css">
-    
+
 
 </head>
 
@@ -19,92 +19,107 @@
     <div class="head">
         <h3 class="head__el">Ремонт техники различных брендов</h3>
     </div>
-    
 
-        <div class="swiper-container">
-            <div class="swiper-wrapper">
-                <div class="swiper-slide">
-                    <img src="img__slider/lenovo.svg" alt="lenovo">
-                </div>
 
-                <div class="swiper-slide">
-                    <img src="img__slider/samsung.svg" alt="samsung">
+    <div class="swiper-container">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <img src="img__slider/lenovo.svg" alt="lenovo">
+            </div>
 
-                </div>
-
-                <div class="swiper-slide">
-                    <img src="img__slider/apple.svg" alt="apple">
-
-                </div>
-
-                <div class="swiper-slide">
-                    <img src="img__slider/bosch.svg" alt="bosch">
-
-                </div>
-
-                <div class="swiper-slide">
-                    <img src="img__slider/hp.svg" alt="hp">
-
-                </div>
-
-                <div class="swiper-slide">
-                    <img src="img__slider/acer.svg" alt="acer">
-
-                </div>
-
-                <div class="swiper-slide">
-                    <img src="img__slider/viewSonic.svg" alt="viewSonic">
-
-                </div>
-
-                <div class="swiper-slide">
-                    <img src="img__slider/sony.svg" alt="sony">
-
-                </div>
-
-                <div class="swiper-slide">
-                    <img src="img__slider/apple.svg" alt="apple">
-
-                </div>
+            <div class="swiper-slide">
+                <img src="img__slider/samsung.svg" alt="samsung">
 
             </div>
-            <div class="swiper-pagination"></div>
-        </div>
 
-        <script src="swiper-master/package/js/swiper.min.js"></script>
-        <script src="swiper.js"></script>
-        <script>
-            var swiper = new Swiper('.swiper-container', {
-                slidesPerView: 1,
-                spaceBetween: 10,
-                pagination: {
-                    el: '.swiper-pagination',
-                    clickable: true,
+            <div class="swiper-slide">
+                <img src="img__slider/apple.svg" alt="apple">
+
+            </div>
+
+            <div class="swiper-slide">
+                <img src="img__slider/bosch.svg" alt="bosch">
+
+            </div>
+
+            <div class="swiper-slide">
+                <img src="img__slider/hp.svg" alt="hp">
+
+            </div>
+
+            <div class="swiper-slide">
+                <img src="img__slider/acer.svg" alt="acer">
+
+            </div>
+
+            <div class="swiper-slide">
+                <img src="img__slider/viewSonic.svg" alt="viewSonic">
+
+            </div>
+
+            <div class="swiper-slide">
+                <img src="img__slider/sony.svg" alt="sony">
+
+            </div>
+
+            <div class="swiper-slide">
+                <img src="img__slider/apple.svg" alt="apple">
+
+            </div>
+
+        </div>
+        <div class="swiper-pagination"></div>
+    </div>
+
+    <script src="swiper-master/package/js/swiper.min.js"></script>
+    <script src="swiper.js"></script>
+    <script>
+        var swiper = new Swiper('.swiper-container', {
+            slidesPerView: 2,
+            slidesOffsetBefore: 16,
+            pagination: {
+                el: '.swiper-pagination',
+                clickable: true,
+            },
+            breakpoints: {
+                319: {
+                    slidesPerView: 1.3,
+
                 },
-                breakpoints: {
-                    '@0.00': {
-                        slidesPerView: 1.4,
-                        spaceBetween: 16,
-                    },
-                    '@0.50': {
-                        slidesPerView: 2.5,
-                        spaceBetween: 16,
-                    },
-                    '@0.75': {
-                        slidesPerView: 3,
-                        spaceBetween: 16,
-                    },
-                    '@1.00': {
-                        slidesPerView: 3,
-                        spaceBetween: 16,
-                    },
-                    '@1.50': {
-                        slidesPerView: 4,
-                        spaceBetween: 16,
-                    },
-                }
-            });
-        </script>
+                350: {
+                    slidesPerView: 1.4,
+                },
+                400: {
+                    slidesPerView: 1.7,
+
+                },
+                450: {
+                    slidesPerView: 1.8,
+
+                },
+                500: {
+                    slidesPerView: 2,
+                },
+                550: {
+                    slidesPerView: 2.2,
+                },
+                600: {
+                    slidesPerView: 2.4,
+                },
+                650: {
+                    slidesPerView: 2.6
+                },
+                700: {
+                    slidesPerView: 2.8,
+                },
+                750: {
+                    slidesPerView:3,
+                },
+
+
+            }
+        });
+    </script>
 </body>
 
 </html>
