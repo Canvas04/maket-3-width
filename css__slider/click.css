@@ -2,7 +2,6 @@
     .logo-of-companies {
         display: flex;
         flex-wrap: wrap;
-        /* align-content: space-around; */
         justify-content: space-evenly;
     }
     .logo-of-companies__el_lg {
@@ -15,7 +14,8 @@
     
     }
     .logo-of-companies__link-block_down {
-        flex-basis: 30%;
+      flex-basis: 85%;
+        
     }
     .logo-of-companies__link {
         text-decoration: none;
