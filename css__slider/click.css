@@ -7,15 +7,22 @@
     }
     .logo-of-companies__el_lg {
         display: none;
-      
     }
+    .logo-of-companies__el_click {
+        margin-bottom: 15px;
+    }
+    .logo-of-companies__el_click-last {
+        flex-basis: 93%;
+    }
+
     .logo-of-companies__sm {
         display: block;
         border-radius: 6px;
-    margin-bottom: 5px;
+        box-sizing: border-box;
+        margin-bottom: 5px;
     }
     .logo-of-companies__link-block_down {
-      flex-basis: 85%;
+        flex-basis: 85%;
         margin-top: 10px;
     }
     .logo-of-companies__link {
@@ -29,7 +36,7 @@
 
     .logo-of-companies__link_down::before {
         content: "";
-         background-image: url(/img__slider/down.svg);
+        background-image: url(/img__slider/down.svg);
         background-repeat: no-repeat;
         width: 50px;
         height: 40px;
@@ -38,8 +45,17 @@
         left: -20px;
     }
 
-    
-    .logo-of-companies__link_up {
+    .logo-of-companies__link_up::before {
+        content: '';
         background-image: url(/img__slider/up.svg);
+        position: absolute;
+        background-repeat: no-repeat;
+        width: 50px;
+        height: 40px;
+        top: 5px;
+        left: -20px;
+    }
+    .logo-of-companies__link-block_up {
+        flex-basis: 85%;
     }
 }
