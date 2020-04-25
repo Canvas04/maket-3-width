@@ -10,6 +10,7 @@
     }
     .logo-of-companies__el_click {
         margin-bottom: 15px;
+        flex-basis: 200px;
     }
     .logo-of-companies__el_click-last {
         flex-basis: 93%;
@@ -46,7 +47,7 @@
     }
 
     .logo-of-companies__link_up::before {
-        content: '';
+        content: "";
         background-image: url(/img__slider/up.svg);
         position: absolute;
         background-repeat: no-repeat;
@@ -57,5 +58,65 @@
     }
     .logo-of-companies__link-block_up {
         flex-basis: 85%;
+    }
+}
+@media (min-width: 805px) {
+    .logo-of-companies__el_click-last {
+        flex-basis: 89%;
+    }
+    .logo-of-companies__link-block_up {
+        flex-basis: 83%;
+    }
+}
+@media (min-width: 900px) {
+    .logo-of-companies__sm {
+        flex-basis: 26%;
+    }
+    .logo-of-companies__el_click {
+        flex-basis: 26%;
+    }
+    .logo-of-companies__el_click-last {
+        flex-basis: 89%;
+    }
+    .width-img {
+        width: 224px
+    }
+}
+@media (min-width: 1120px) {
+    .logo-of-companies {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        margin-top: 24px;
+    }
+
+    .logo-of-companies__sm {
+        display: none;
+    }
+    .logo-of-companies__el_lg {
+        display: block;
+        flex-basis: 22%;
+    }
+    .logo-of-companies__el_click-disabled {
+        display: none !important;
+    }
+    .logo-of-companies__el_click {
+        flex-basis: 22%;
+    }
+    .logo-of-companies__el_click-last {
+        flex-basis: 47% ;
+    }
+    .width-img {
+        width: 240px;
+    }
+    .logo-of-companies__el_lg {
+        margin-bottom: 10px;
+    }
+    .logo-of-companies__el_click {
+        margin-top: -10px;
+    }
+
+    .logo-of-companies__link-block_up {
+        flex-basis: 90%;
     }
 }
