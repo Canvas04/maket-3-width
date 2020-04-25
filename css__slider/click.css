@@ -1,4 +1,8 @@
+
 @media (min-width: 768px) {
+
+
+
     .logo-of-companies {
         display: flex;
         flex-wrap: wrap;
@@ -96,7 +100,11 @@
     }
     .logo-of-companies__el_lg {
         display: block;
-        flex-basis: 22%;
+        flex-basis: 21%;
+        
+        display: flex;
+        justify-content: space-evenly;
+       
     }
     .logo-of-companies__el_click-disabled {
         display: none !important;
@@ -109,7 +117,8 @@
     }
     .width-img {
         width: 240px;
-    }
+        display: block;
+        }
     .logo-of-companies__el_lg {
         margin-bottom: 10px;
     }
