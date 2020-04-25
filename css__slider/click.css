@@ -3,6 +3,7 @@
         display: flex;
         flex-wrap: wrap;
         justify-content: space-evenly;
+        margin-top: 24px;
     }
     .logo-of-companies__el_lg {
         display: none;
@@ -11,11 +12,11 @@
     .logo-of-companies__sm {
         display: block;
         border-radius: 6px;
-    
+    margin-bottom: 5px;
     }
     .logo-of-companies__link-block_down {
       flex-basis: 85%;
-        
+        margin-top: 10px;
     }
     .logo-of-companies__link {
         text-decoration: none;
@@ -26,17 +27,18 @@
         position: relative;
     }
 
-    .logo-of-companies__link::before {
+    .logo-of-companies__link_down::before {
         content: "";
+         background-image: url(/img__slider/down.svg);
         background-repeat: no-repeat;
         width: 50px;
         height: 40px;
         position: absolute;
+        top: 5px;
+        left: -20px;
     }
 
-    .logo-of-companies__link_down {
-        background-image: url(/img__slider/down.svg);
-    }
+    
     .logo-of-companies__link_up {
         background-image: url(/img__slider/up.svg);
     }
