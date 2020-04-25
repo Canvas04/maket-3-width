@@ -83,6 +83,7 @@
     }
 }
 @media (min-width: 1120px) {
+   
     .logo-of-companies {
         display: flex;
         flex-wrap: wrap;
@@ -119,5 +120,7 @@
     .logo-of-companies__link-block_up {
         flex-basis: 90%;
     }
-    
+    .logo-of-companies__link-block_down {
+        flex-basis: 90%;
+    }
 }
