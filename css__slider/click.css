@@ -1,8 +1,22 @@
 @media (min-width: 768px) {
-.logo-of-companies {
-    display: flex ;
-}
-
+    .logo-of-companies {
+        display: flex;
+        flex-wrap: wrap;
+        /* align-content: space-around; */
+        justify-content: space-evenly;
+    }
+    .logo-of-companies__el_lg {
+        display: none;
+      
+    }
+    .logo-of-companies__sm {
+        display: block;
+        border-radius: 6px;
+    
+    }
+    .logo-of-companies__link-block_down {
+        flex-basis: 30%;
+    }
     .logo-of-companies__link {
         text-decoration: none;
         color: #1b1c21;
