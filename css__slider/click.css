@@ -1,5 +1,7 @@
 
-.logo-of-companies__link_down::before {
+
+
+.pseudo-el-up::before {
         content: "";
         background-image: url(../img__slider/down.svg);
         background-repeat: no-repeat;
@@ -10,14 +12,14 @@
         left: -20px;
     }
 
-    .logo-of-companies__link_up::before {
+    .pseudo-el-up::before {
         content: "";
         background-image: url(../img__slider/up.svg);
-        position: absolute;
+        position: relative;
         background-repeat: no-repeat;
         width: 50px;
         height: 40px;
-        top: 5px;
+        top: 100px;
         left: -20px;
     }
 
