@@ -1,4 +1,28 @@
 
+.logo-of-companies__link_down::before {
+        content: "";
+        background-image: url(/img__slider/down.svg);
+        background-repeat: no-repeat;
+        width: 50px;
+        height: 40px;
+        position: absolute;
+        top: 5px;
+        left: -20px;
+    }
+
+    .logo-of-companies__link_up::before {
+        content: "";
+        background-image: url(/img__slider/up.svg);
+        position: absolute;
+        background-repeat: no-repeat;
+        width: 50px;
+        height: 40px;
+        top: 5px;
+        left: -20px;
+    }
+
+
+
 @media (min-width: 768px) {
 
 
@@ -39,27 +63,7 @@
         position: relative;
     }
 
-    .logo-of-companies__link_down::before {
-        content: "";
-        background-image: url(/img__slider/down.svg);
-        background-repeat: no-repeat;
-        width: 50px;
-        height: 40px;
-        position: absolute;
-        top: 5px;
-        left: -20px;
-    }
-
-    .logo-of-companies__link_up::before {
-        content: "";
-        background-image: url(/img__slider/up.svg);
-        position: absolute;
-        background-repeat: no-repeat;
-        width: 50px;
-        height: 40px;
-        top: 5px;
-        left: -20px;
-    }
+    
     .logo-of-companies__link-block_up {
         flex-basis: 85%;
     }
@@ -71,6 +75,10 @@
     .logo-of-companies__link-block_up {
         flex-basis: 83%;
     }
+
+
+
+
 }
 @media (min-width: 900px) {
     .logo-of-companies__sm {
@@ -141,4 +149,3 @@
         left: -3%;
     }
 }
-/* Остались 2 проблемки: правильно расположить хедер на всех разрешениях и убрать оверфлоу у страницы */
