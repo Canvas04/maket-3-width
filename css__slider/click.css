@@ -110,11 +110,13 @@
         display: none !important;
     }
     .logo-of-companies__el_click {
-        flex-basis: 22%;
+        flex-basis: 27%;
     }
     .logo-of-companies__el_click-last {
-        flex-basis: 47% ;
-    }
+        flex-basis: 45% ;
+        position: relative;
+        left: -15%;
+}
     .width-img {
         width: 240px;
         display: block;
@@ -124,6 +126,7 @@
     }
     .logo-of-companies__el_click {
         margin-top: -10px;
+        /* border: 1px solid; */
     }
 
     .logo-of-companies__link-block_up {
@@ -133,5 +136,9 @@
         flex-basis: 90%;
     }
     
+    .logo-of-companies__el_click_samsung  {
+        position: relative;
+        left: -3%;
+    }
 }
 /* Остались 2 проблемки: правильно расположить хедер на всех разрешениях и убрать оверфлоу у страницы */

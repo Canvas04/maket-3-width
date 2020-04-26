@@ -12,7 +12,8 @@ let linkShow = document.querySelector('.logo-of-companies__link_down');
 linkShow.addEventListener('click' , (ev) => {
     ev.preventDefault();
     for (const el of hiddenEl ) {
-        el.style.display = 'block'    
+        el.style.display = 'flex' ;
+        el.style.justifyContent = 'space-evenly';   
         }
         linkShow.style.display = 'none';
        linkHidden.style.display = 'block';   
