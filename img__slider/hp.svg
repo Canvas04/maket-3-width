@@ -1,9 +1,6 @@
-<svg width="224" height="72" viewBox="0 0 224 72" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-<rect x="0.5" y="0.5" width="223" height="71" rx="5.5" fill="white" stroke="#EAEAEA"/>
-<rect x="169" y="17" width="38" height="38" rx="19" stroke="#FF3E79" stroke-width="2"/>
-<path fill-rule="evenodd" clip-rule="evenodd" d="M189.5 36L185.707 32.2071C185.317 31.8166 185.317 31.1834 185.707 30.7929L185.793 30.7071C186.183 30.3166 186.817 30.3166 187.207 30.7071L191.793 35.2929C192.183 35.6834 192.183 36.3166 191.793 36.7071L187.207 41.2929C186.817 41.6834 186.183 41.6834 185.793 41.2929L185.707 41.2071C185.317 40.8166 185.317 40.1834 185.707 39.7929L189.5 36Z" fill="#FF3E79"/>
+<svg width="52" height="52" viewBox="0 0 52 52" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <g style="mix-blend-mode:multiply">
-<rect x="10" y="10" width="52" height="52" fill="url(#pattern0)"/>
+<rect width="52" height="52" fill="url(#pattern0)"/>
 </g>
 <defs>
 <pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">

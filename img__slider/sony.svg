@@ -1,8 +1,5 @@
-<svg width="240" height="72" viewBox="0 0 240 72" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-<rect x="0.5" y="0.5" width="239" height="71" rx="5.5" fill="white" stroke="#EAEAEA"/>
-<rect x="185" y="17" width="38" height="38" rx="19" stroke="#FF3E79" stroke-width="2"/>
-<path fill-rule="evenodd" clip-rule="evenodd" d="M205.5 36L201.707 32.2071C201.317 31.8166 201.317 31.1834 201.707 30.7929L201.793 30.7071C202.183 30.3166 202.817 30.3166 203.207 30.7071L207.793 35.2929C208.183 35.6834 208.183 36.3166 207.793 36.7071L203.207 41.2929C202.817 41.6834 202.183 41.6834 201.793 41.2929L201.707 41.2071C201.317 40.8166 201.317 40.1834 201.707 39.7929L205.5 36Z" fill="#FF3E79"/>
-<rect x="14" y="23" width="128" height="25.6" fill="url(#pattern0)"/>
+<svg width="128" height="26" viewBox="0 0 128 26" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<rect width="128" height="25.6" fill="url(#pattern0)"/>
 <defs>
 <pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
 <use xlink:href="#image0" transform="scale(0.000166667 0.000833333)"/>
