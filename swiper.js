@@ -13,7 +13,7 @@ linkShow.addEventListener('click' , (ev) => {
     ev.preventDefault();
     for (const el of hiddenEl ) {
         el.style.display = 'flex' ;
-        el.style.justifyContent = 'space-evenly';   
+        el.style.justifyContent = 'space-between';   
         }
         linkShow.style.display = 'none';
        linkHidden.style.display = 'block';   
