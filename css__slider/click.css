@@ -1,34 +1,29 @@
-
-
-
 .pseudo-el-down::before {
-        content: "";
-        background-image: url(../img__slider/down.svg);
-        background-repeat: no-repeat;
-        width: 50px;
-        height: 40px;
-        position: absolute;
-        top: 5px;
-        left: -20px;
-    }
+    content: "";
+    background-image: url(../img__slider/down.svg);
+    background-repeat: no-repeat;
+    width: 50px;
+    height: 40px;
+    position: absolute;
+    top: 5px;
+    left: -20px;
+}
 
-    .pseudo-el-up::before {
-        content: "";
-        background-image: url(../img__slider/up.svg);
-        position: absolute;
-        background-repeat: no-repeat;
-        width: 50px;
-        height: 40px;
-        top: 5px;
-        left: -20px;
-    }
-
-
+.pseudo-el-up::before {
+    content: "";
+    background-image: url(../img__slider/up.svg);
+    position: absolute;
+    background-repeat: no-repeat;
+    width: 50px;
+    height: 40px;
+    top: 5px;
+    left: -20px;
+    color: #1b1c21;
+    font-weight: 500;
+    font-size: 16px;
+}
 
 @media (min-width: 768px) {
-
-
-
     .logo-of-companies {
         display: flex;
         flex-wrap: wrap;
@@ -65,9 +60,16 @@
         position: relative;
     }
 
-    
     .logo-of-companies__link-block_up {
         flex-basis: 85%;
+    }
+
+    .logo-of-companies__el_click-last {
+        position: relative;
+        left: -250px;
+    }
+    .width-img {
+        width: 224px;
     }
 }
 @media (min-width: 805px) {
@@ -77,10 +79,6 @@
     .logo-of-companies__link-block_up {
         flex-basis: 83%;
     }
-
-
-
-
 }
 @media (min-width: 900px) {
     .logo-of-companies__sm {
@@ -93,11 +91,10 @@
         flex-basis: 89%;
     }
     .width-img {
-        width: 224px
+        width: 224px;
     }
 }
 @media (min-width: 1120px) {
-   
     .logo-of-companies {
         display: flex;
         flex-wrap: wrap;
@@ -111,10 +108,9 @@
     .logo-of-companies__el_lg {
         display: block;
         flex-basis: 21%;
-        
+
         display: flex;
         justify-content: space-evenly;
-       
     }
     .logo-of-companies__el_click-disabled {
         display: none !important;
@@ -123,14 +119,14 @@
         flex-basis: 27%;
     }
     .logo-of-companies__el_click-last {
-        flex-basis: 45% ;
+        flex-basis: 45%;
         position: relative;
         left: -15%;
-}
+    }
     .width-img {
         width: 240px;
         display: block;
-        }
+    }
     .logo-of-companies__el_lg {
         margin-bottom: 10px;
     }
@@ -145,8 +141,8 @@
     .logo-of-companies__link-block_down {
         flex-basis: 90%;
     }
-    
-    .logo-of-companies__el_click_samsung  {
+
+    .logo-of-companies__el_click_samsung {
         position: relative;
         left: -3%;
     }
