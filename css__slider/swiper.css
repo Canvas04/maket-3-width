@@ -44,10 +44,10 @@
     align-items: center;
 }
 @media (min-width: 768px) {
-    .swiper-container {
+    /* .swiper-container {
         display: none;
-    }
+    } */
 }
-.logo-of-companies {
+/* .logo-of-companies {
     display: none;
-}
+} */
