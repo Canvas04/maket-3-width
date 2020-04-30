@@ -29,3 +29,18 @@ linkHidden.addEventListener('click' , (ev) => {
         el.style.display = 'none' ;   
         }
 })
+// Меняю местами Dom-элементы при 1120px
+
+
+if(matchMedia) {
+    const mq = window.matchMedia('(min-width: 1120px)');
+    mq.addListener(screenTest);
+    screenTest(mq);
+}
+function screenTest(mq) {
+    if(mq.matches) {
+        console.log('Больше 1120');
+    }else {
+        console.log('Меньше 1120px')
+    }
+}
