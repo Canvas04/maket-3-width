@@ -14,8 +14,9 @@ linkShow.addEventListener('click', (ev) => {
     for (const el of hiddenEl) {
         el.style.display = 'flex';
         el.style.justifyContent = 'space-between';
-        el.style.marginTop = '-5px'
+        el.style.marginTop = '-5px';
     }
+
     linkShow.style.display = 'none';
     linkHidden.style.display = 'block';
 });
@@ -35,8 +36,7 @@ let imgBosch = document.querySelector('.logo-of-companies__img_bosch');
 let imgHp = document.querySelector('.logo-of-companies__img_hp');
 let imgAcer = document.querySelector('.logo-of-companies__img_acer');
 let imgView = document.querySelector('.logo-of-companies__img_viewSonic');
-let imgSonyDisabled = document.querySelector('.logo-of-companies__el_click-disabled');
-
+let imgSonyDisabled = document.querySelector('.logo-of-companies__el-click-disabled');
 if (matchMedia) {
     const mq = window.matchMedia('(min-width: 1120px)');
     mq.addListener(screenTest);
@@ -48,6 +48,6 @@ function screenTest(mq) {
         imgHp.src = '../img__slider/bosch.svg';
         imgAcer.src = '../img__slider/hp.svg';
         imgView.src = '../img__slider/acer.svg';
-        imgSonyDisabled.style.display = 'none';
-    } 
+        imgSonyDisabled.remove();
+    }
 }
