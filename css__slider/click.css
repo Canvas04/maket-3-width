@@ -19,7 +19,9 @@
         top: 5px;
         left: -20px;
     }
-
+.swiper-wrapper {
+        margin-left: 0;
+    }
     .pseudo-el-up::before {
         content: "";
         background-image: url(../img__slider/up.svg);
@@ -154,4 +156,5 @@
         position: relative;
         left: 0.1%;
     }
+    
 }
