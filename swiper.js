@@ -44,10 +44,10 @@ if (matchMedia) {
 }
 function screenTest(mq) {
     if (mq.matches) {
-        imgBosch.src = '../../img__slider/viewSonic.svg';
-        imgHp.src = '../../img__slider/bosch.svg';
-        imgAcer.src = '../../img__slider/hp.svg';
-        imgView.src = '../../img__slider/acer.svg';
+        imgBosch.src = 'img__slider/viewSonic.svg';
+        imgHp.src = 'img__slider/bosch.svg';
+        imgAcer.src = 'img__slider/hp.svg';
+        imgView.src = 'img__slider/acer.svg';
         
     }
 }
