@@ -1,46 +1,50 @@
 let paginationContainer = document.querySelector('.swiper-pagination');
-paginationContainer.style.marginBottom = '40px'; 
+paginationContainer.style.marginBottom = '40px';
 
 let hiddenEl = document.querySelectorAll('.logo-of-companies__el_click');
-for (const el of hiddenEl ) {
-el.style.display = 'none'    
+for (const el of hiddenEl) {
+    el.style.display = 'none'
 }
 let linkHidden = document.querySelector('.logo-of-companies__link-block_up');
 linkHidden.style.display = 'none';
 
 let linkShow = document.querySelector('.logo-of-companies__link_down');
-linkShow.addEventListener('click' , (ev) => {
+linkShow.addEventListener('click', (ev) => {
     ev.preventDefault();
-    for (const el of hiddenEl ) {
-        el.style.display = 'flex' ;
-        el.style.justifyContent = 'space-between';   
+    for (const el of hiddenEl) {
+        el.style.display = 'flex';
+        el.style.justifyContent = 'space-between';
         el.style.marginTop = '-5px'
-        }
-        linkShow.style.display = 'none';
-       linkHidden.style.display = 'block';   
+    }
+    linkShow.style.display = 'none';
+    linkHidden.style.display = 'block';
 });
 
 
-linkHidden.addEventListener('click' , (ev) => {
+linkHidden.addEventListener('click', (ev) => {
     ev.preventDefault();
     linkHidden.style.display = 'none';
     linkShow.style.display = 'block';
-    for (const el of hiddenEl ) {
-        el.style.display = 'none' ;   
-        }
+    for (const el of hiddenEl) {
+        el.style.display = 'none';
+    }
 })
 // Меняю местами Dom-элементы при 1120px
 
-
-if(matchMedia) {
+let imgBosch = document.querySelector('.logo-of-companies__img_bosch');
+let imgHp = document.querySelector('.logo-of-companies__img_hp');
+let imgAcer = document.querySelector('.logo-of-companies__img_acer');
+let imgView = document.querySelector('.logo-of-companies__img_viewSonic')
+if (matchMedia) {
     const mq = window.matchMedia('(min-width: 1120px)');
     mq.addListener(screenTest);
     screenTest(mq);
 }
 function screenTest(mq) {
-    if(mq.matches) {
-        console.log('Больше 1120');
-    }else {
-        console.log('Меньше 1120px')
-    }
+    if (mq.matches) {
+        imgBosch.src = '../img__slider/viewSonic.svg';
+        imgHp.src = '../img__slider/bosch.svg';
+        imgAcer.src = '../img__slider/hp.svg';
+        imgView.src = '../img__slider/acer.svg';
+    } 
 }
