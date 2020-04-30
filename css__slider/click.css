@@ -136,9 +136,18 @@
         background-color: #fff;
         padding: 10px;
     }
-.logo-of-companies__el_click-disabled {
-    display: none ;
-}
- 
+    .logo-of-companies__el_click-disabled {
+        display: none !important;
+    }
+    .logo-of-companies__el_click {
+        flex-basis: 21%;
+    }
+    .logo-of-companies__el_click-last {
+        position: static;
+        margin-right: 25%;
+    }
+    .logo-of-companies__el_click-samsung {
+        position: relative;
 
+    }
 }
