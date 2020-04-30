@@ -54,7 +54,7 @@
         margin-top: -10px;
     }
 
-    .logo-of-companies__sm {
+    .logo-of-companies__el_sm {
         display: block;
         border-radius: 6px;
         box-sizing: border-box;
@@ -100,7 +100,7 @@
     }
 }
 @media (min-width: 900px) {
-    .logo-of-companies__sm {
+    .logo-of-companies__el_sm {
         flex-basis: 27%;
     }
     .logo-of-companies__el_click {
@@ -121,7 +121,7 @@
         flex-basis: 90%;
     }
 
-    .logo-of-companies__sm {
+    .logo-of-companies__el_sm {
         display: none;
     }
     .logo-of-companies__el_lg {
