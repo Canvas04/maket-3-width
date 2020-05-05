@@ -109,7 +109,8 @@
             var screenWidth = $(window).width();
             if (screenWidth < 768 && swiper == undefined) {
                 swiper = new Swiper('.swiper-container', {
-                    slidesPerView: 2,
+                    slidesPerView: 1,
+                    loop:true,
                     slidesOffsetBefore: 16,
                     pagination: {
                         el: '.swiper-pagination',
